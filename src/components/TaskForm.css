@@ -1,0 +1,41 @@
+.task-form {
+  margin-top: 16px;
+}
+
+.task-form input,
+.task-form textarea,
+.task-form select {
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  background: var(--bg-primary);
+  color: var(--text-primary);
+  font-size: 14px;
+  transition: border-color 0.2s;
+}
+
+.task-form input:focus,
+.task-form textarea:focus,
+.task-form select:focus {
+  outline: none;
+  border-color: var(--accent-color);
+}
+
+.task-form label {
+  font-weight: 500;
+  font-size: 13px;
+  margin-bottom: 6px;
+  display: block;
+  color: var(--text-secondary);
+}
+
+.form-buttons {
+  display: flex;
+  gap: 12px;
+  margin-top: 24px;
+}
+
+.form-buttons button {
+  padding: 8px 20px;
+}
